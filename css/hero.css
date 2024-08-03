@@ -1,6 +1,8 @@
 body{
     margin:0;
     font-family:Helvetica,Arial, sans-serif; 
+    font-size:20px;
+    line-height: 30px;
 }
 
 header{
@@ -29,8 +31,45 @@ header img{
 }   
 main{
     max-width:800px;
-    
+    margin:0 auto;
+    padding: 20px;
 }
 main img{
     max-width:100%;
+}
+h2{
+    font: size 30px;
+    color:#e70c19;
+    margin: 40px 0 10px;
+}
+
+a{
+   color:#e70c19;
+
+}
+a:hover{
+    color:rgb(6, 147, 147);
+}
+footer{
+background-color:#d14635;
+text-align:center;
+color:white;
+padding:50px;
+}
+
+footer p{
+    margin:0;
+}
+
+footer a{
+    color:white;
+}footer :hover{
+    opacity: 0.5;
+    background-color:transparent ;
+}
+p.caption{
+    opacity: 0.5;
+    font-style:italic;
+    margin-top:0;
+    
 }
